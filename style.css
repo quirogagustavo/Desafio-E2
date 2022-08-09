@@ -24,7 +24,7 @@
   }
   .flex-item img {
     margin: 37px 167px;
-    justify-content:start;
+    align-items:flex-start;
   }
 .flex-item ul {
   list-style:none;
