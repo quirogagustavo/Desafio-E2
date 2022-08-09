@@ -9,24 +9,28 @@
     justify-content:space-between;
     height: 80px;
     border:2px solid grey;
-    margin: 10px 20px;
+    margin: 20px 20px;
     border-radius: 7px;
+    width: 95%;
+    padding: 10px 30px;
+    flex-direction: row;
+    position: fixed;
   }
   .flex-item {
-    width: 500px;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
     line-height: 20px;
     font-size: 20px;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items:center;
-    display:inline-flex;
+    display:flex;
   }
   .flex-item img {
-    margin: 37px 167px;
-    align-items:flex-start;
+    height: 150%;
+    
   }
 .flex-item ul {
+  width: 500px;
   list-style:none;
   margin: 10px;
   justify-content: space-between;
