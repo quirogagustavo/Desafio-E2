@@ -18,15 +18,17 @@
     text-align: center;
     line-height: 20px;
     font-size: 20px;
-    align-items:flex-end;
+    justify-content: flex-end;
+    align-items:center;
     display:inline-flex;
   }
   .flex-item img {
-    margin: 1px 50px;
+    margin: 37px 167px;
+    justify-content:start;
   }
-  #flexdos{
-    margin: -11px 20px;
-    height: 60px;
-  }
-  
+.flex-item ul {
+  list-style:none;
+  margin: 10px;
+  justify-content: space-between;
+} 
   
